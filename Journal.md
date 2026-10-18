@@ -12,3 +12,7 @@ In this phase, I created the DivineWeapon class and used super() to call the Art
 # Phase 3: The Master's Shortcuts
 
 In this phase, I added a new constructor that gives the weapon a default essence. Using this() makes the code easier because I don't have to repeat the same code. If I want to change the default essence later, I only need to change the value inside this().
+
+# Phase 4: Validation & Reflection
+
+In this phase, I tested both the default and custom weapons to make sure they worked correctly. I did not notice any errors while testing. I used ChatGPT to review my code, and it helped me understand how super() and this() work. Both constructors seem to be set up correctly, so I did not need to make any changes.
