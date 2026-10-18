@@ -8,3 +8,7 @@ In this phase, I created the Artifact class and added a constructor that sets th
 # Phase 2: Legendary Armaments
 
 In this phase, I created the DivineWeapon class and used super() to call the Artifact constructor. If I leave out super(), Java will try to call a constructor with no arguments, but Artifact does not have one. This causes an error. Java requires the parent class to be initialized before the child class.
+
+# Phase 3: The Master's Shortcuts
+
+In this phase, I added a new constructor that gives the weapon a default essence. Using this() makes the code easier because I don't have to repeat the same code. If I want to change the default essence later, I only need to change the value inside this().

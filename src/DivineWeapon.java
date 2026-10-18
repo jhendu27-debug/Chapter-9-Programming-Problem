@@ -8,4 +8,8 @@ public class DivineWeapon extends Artifact {
         this.essenceType = essenceType;
         System.out.println("Its essence is now glowing with " + essenceType + " energy.");
     }
+
+    public DivineWeapon() {
+        this("Pure Sunlight");
+    }
 }
